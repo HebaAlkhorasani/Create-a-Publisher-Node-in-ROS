@@ -1,5 +1,5 @@
 # Create-a-Publisher-Node-in-ROS
-A python script that publishes to "/move_base_simple/goal" Turtlebot3's topic. It is programmed to navigate the robot to a charging station.
+A Python script that publishes to the "/move_base_simple/goal" Turtlebot3's topic. It is programmed to navigate the robot to a located charging station.
 
 ## Create a Package
   1. Enter the following commands in the terminal:
@@ -16,9 +16,9 @@ A python script that publishes to "/move_base_simple/goal" Turtlebot3's topic. I
   ```
   $ . ~/catkin_ws/devel/setup.bash
   ```
-## Write The Python script
+## The Python script
 The code creates a node called "position", and publishs a PoseStamped message to the "/move_base_simple/goal" topic.  
-  1. Change the directory from the terminal:
+  1. Change the directory:
   ```
   $ roscd charging_station
   ```
