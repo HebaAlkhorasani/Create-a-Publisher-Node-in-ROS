@@ -17,7 +17,7 @@ A Python script that publishes to the "/move_base_simple/goal" Turtlebot3's topi
   $ . ~/catkin_ws/devel/setup.bash
   ```
 ## The Python script
-The code creates a node called "position", and publishs a PoseStamped message to the "/move_base_simple/goal" topic.  
+The code creates a node called "position", and publishes a PoseStamped message to the "/move_base_simple/goal" topic.  
   1. Change the directory:
   ```
   $ roscd charging_station
