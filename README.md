@@ -28,7 +28,7 @@ $ cd scripts
 ```
 3. Download the "position.py" file:
 ```
-$ wget 
+$ wget https://github.com/HebaAlkhorasani/Create-a-Publisher-Node-in-ROS/position.py
 ```
 ## Run the Node produced from the composed Python script
 1. Launch Gazebo and RViz following this link: https://github.com/HebaAlkhorasani/Use-SLAM-map-to-launch-the-navigation.git 
@@ -36,3 +36,5 @@ $ wget
 ```
 $ rosrun charging_station position.py
 ```
+The output is as follows:
+![me](Navigation_Output.gif)
